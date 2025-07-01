@@ -5,7 +5,7 @@ contract erc20{
     string public name = "geonCoin";
     string public symbol = "G";
     uint8 decimal=18;
-    uint256 totalSupply;
+    uint256 public totalSupply;
     
     mapping(address => uint) public balanceOf;
     mapping(address => mapping(address => uint)) public allowance;
